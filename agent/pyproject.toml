@@ -1,0 +1,13 @@
+[project]
+name = "agent"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "ag-ui-claude-sdk>=0.2.4",
+    "ag-ui-protocol>=1.0.0",
+    "anthropic>=2.8.0",
+    "claude-agent-sdk>=0.2.170",
+    "fastapi>=0.162.5",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+]
